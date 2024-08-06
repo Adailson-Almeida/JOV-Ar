@@ -22,8 +22,8 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Serviços</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Portfólio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#cards">Serviços</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfólio</a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Contatos
@@ -31,7 +31,7 @@
                             <ul class="dropdown-menu">
                               <li><a class="dropdown-item nav-item nav-link" href="https://wa.me/5561991831119?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento..." target="_blank"><i class="bi bi-whatsapp me-2" style="color: #3dce42;"></i>Whatsapp</a></li>
                               <li><a class="dropdown-item nav-item nav-link" href="https://www.instagram.com/jovarcondicionados/" target="_blank"><i class="bi bi-instagram me-2" style="color: #dc4081;"></i>Instagram</a></li>
-                              <li><a class="dropdown-item nav-item nav-link" href="#"><i class="fa-brands fa-facebook-f me-2"></i>Facebook</a></li>
+                              <li><a class="dropdown-item nav-item nav-link" href="#email"><i class="bi bi-envelope me-2" style="color: #ea4235;"></i>Email</a></li>
                             </ul>
                           </li>
                     </ul>
@@ -47,8 +47,8 @@
                             <h1 class="display-5 fw-bolder text-white mb-2">JOV Ar Condicionados</h1>
                             <p class="lead text-white-50 mb-4">Trabalhamos sempre com excelência para melhor atendê-lo!</p>
                             <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
-                                <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Serviços</a>
-                                <a class="btn btn-outline-light btn-lg px-4" href="#!">Mais informações</a>
+                                <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#portfolio">Serviços</a>
+                                <a class="btn btn-outline-light btn-lg px-4" href="#cards">Mais informações</a>
                             </div>
                         </div>
                     </div>
@@ -120,7 +120,7 @@
                         </div>
                         <div class="col-lg-4 col-sm-6 mb-4">
                             <!-- Portfolio item 2-->
-                            <div class="portfolio-item">
+                            <div id="portfolio" class="portfolio-item">
                                 <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
                                     <div class="portfolio-hover">
                                         <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
@@ -238,7 +238,7 @@
         </div>
 
         <!-- Pricing section-->
-        <section class="bg-light py-5 border-bottom">
+        <section id="cards" class="bg-light py-5 border-bottom">
             <div class="container px-5 my-5">
                 <div class="text-center mb-5">
                     <h2 class="fw-bolder">Confira nossos serviços</h2>
@@ -443,7 +443,7 @@
             </div>
         </section> -->
         <!-- Contact section-->
-        <section class="bg-light py-5">
+        <section id="email" class="bg-light py-5">
             <div class="container px-5 my-5 px-5">
                 <div class="text-center mb-5">
                     <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
