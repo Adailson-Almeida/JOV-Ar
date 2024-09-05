@@ -1,413 +1,457 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>JOV Ar Condicionados</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/JOV-icon.png" />
-        <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body>
-        <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <div class="container px-5">
-                <a class="navbar-brand" href="#!"><img src="./assets/Logo2.png" style="width: 150px;" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#cards">Serviços</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfólio</a></li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Contatos
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>JOV Ar Condicionados</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/JOV-icon.png" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CKR0FR0ELK">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-CKR0FR0ELK');
+    </script>
+</head>
+
+<body>
+    <!-- Responsive navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container px-5">
+            <a class="navbar-brand" href="#!"><img src="./assets/Logo2.png" style="width: 150px;" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#cards">Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfólio</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Contatos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item nav-item nav-link"
+                                    href="https://wa.me/5561991831119?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento..."
+                                    target="_blank"><i class="bi bi-whatsapp me-2"
+                                        style="color: #3dce42;"></i>Whatsapp</a></li>
+                            <li><a class="dropdown-item nav-item nav-link"
+                                    href="https://www.instagram.com/jovarcondicionados/" target="_blank"><i
+                                        class="bi bi-instagram me-2" style="color: #dc4081;"></i>Instagram</a></li>
+                            <li><a class="dropdown-item nav-item nav-link" href="#email"><i class="bi bi-envelope me-2"
+                                        style="color: #ea4235;"></i>Email</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Header-->
+    <header class="bg-dark py-2">
+        <div class="container px-5">
+            <div class="row gx-5 justify-content-center align-items-end" style="height: 100%;">
+                <div class="col-lg-6">
+                    <div class="text-center my-5">
+                        <h1 class="display-5 fw-bolder text-white mb-2">JOV Ar Condicionados</h1>
+                        <p class="lead text-white-50 mb-4">Trabalhamos sempre com excelência para melhor atendê-lo!</p>
+                        <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
+                            <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#portfolio">Serviços</a>
+                            <a class="btn btn-outline-light btn-lg px-4" href="#cards">Mais informações</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex justify-content-end">
+                    <img src="/assets/ArNew.png" alt="Logo" class="align-self-end" style="height: 300px;">
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <!-- Features section-->
+    <section class="py-5 border-bottom" id="features">
+        <div class="container px-5 my-5">
+            <div class="row gx-5">
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-snow3"></i>
+                    </div>
+                    <h2 class="h4 fw-bolder">Instalação</h2>
+                    <p>A instalação de um ar condicionado é um processo que requer atenção a vários detalhes para
+                        garantir seu funcionamento eficiente e seguro.</p>
+                    <a class="text-decoration-none" href="#cards">
+                        Mais detalhes
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-wind"></i>
+                    </div>
+                    <h2 class="h4 fw-bolder">Higienização</h2>
+                    <p>Manter o ar condicionado bem higienizado é essencial por várias razões, tanto para a saúde quanto
+                        para a eficiência do aparelho.</p>
+                    <a class="text-decoration-none" href="#cards">
+                        Mais detalhes
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-tools"></i>
+                    </div>
+                    <h2 class="h4 fw-bolder">Manutenção e Conserto</h2>
+                    <p>A manutenção regular de um ar condicionado é essencial para garantir sua eficiência, durabilidade
+                        e a qualidade do ar.</p>
+                    <a class="text-decoration-none" href="#cards">
+                        Mais detalhes
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading">Portfolio</h2>
+                    <h3 class="section-subheading text-muted">Veja nosso portfólio.</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/jov7.png" style="border-radius: 20px;" alt="..." />
+
                             </a>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item nav-item nav-link" href="https://wa.me/5561991831119?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento..." target="_blank"><i class="bi bi-whatsapp me-2" style="color: #3dce42;"></i>Whatsapp</a></li>
-                              <li><a class="dropdown-item nav-item nav-link" href="https://www.instagram.com/jovarcondicionados/" target="_blank"><i class="bi bi-instagram me-2" style="color: #dc4081;"></i>Instagram</a></li>
-                              <li><a class="dropdown-item nav-item nav-link" href="#email"><i class="bi bi-envelope me-2" style="color: #ea4235;"></i>Email</a></li>
-                            </ul>
-                          </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Header-->
-        <header class="bg-dark py-2">
-            <div class="container px-5">
-                <div class="row gx-5 justify-content-center align-items-end" style="height: 100%;">
-                    <div class="col-lg-6">
-                        <div class="text-center my-5">
-                            <h1 class="display-5 fw-bolder text-white mb-2">JOV Ar Condicionados</h1>
-                            <p class="lead text-white-50 mb-4">Trabalhamos sempre com excelência para melhor atendê-lo!</p>
-                            <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
-                                <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#portfolio">Serviços</a>
-                                <a class="btn btn-outline-light btn-lg px-4" href="#cards">Mais informações</a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Instalação</div>
+                                <div class="portfolio-caption-subheading text-muted">Exemplo</div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 d-flex justify-content-end">
-                        <img src="/assets/ArNew.png" alt="Logo" class="align-self-end" style="height: 300px;">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div id="portfolio" class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/jov6.jpg" style="border-radius: 20px;" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Higienização</div>
+                                <div class="portfolio-caption-subheading text-muted">Exemplo</div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-        </header>
-        
-        
-        
-        <!-- Features section-->
-        <section class="py-5 border-bottom" id="features">
-            <div class="container px-5 my-5">
-                <div class="row gx-5">
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-snow3"></i></div>
-                        <h2 class="h4 fw-bolder">Instalação</h2>
-                        <p>A instalação de um ar condicionado é um processo que requer atenção a vários detalhes para garantir seu funcionamento eficiente e seguro.</p>
-                        <a class="text-decoration-none" href="#cards">
-                            Mais detalhes
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/jov10.jpg" style="border-radius: 20px;" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Manutenção e Conserto</div>
+                                <div class="portfolio-caption-subheading text-muted">Exemplo</div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-wind"></i></div>
-                        <h2 class="h4 fw-bolder">Higienização</h2>
-                        <p>Manter o ar condicionado bem higienizado é essencial por várias razões, tanto para a saúde quanto para a eficiência do aparelho.</p>
-                        <a class="text-decoration-none" href="#cards">
-                            Mais detalhes
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-tools"></i></div>
-                        <h2 class="h4 fw-bolder">Manutenção e Conserto</h2>
-                        <p>A manutenção regular de um ar condicionado é essencial para garantir sua eficiência, durabilidade e a qualidade do ar.</p>
-                        <a class="text-decoration-none" href="#cards">
-                            Mais detalhes
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
 
-            <section class="page-section bg-light" id="portfolio">
+                </div>
+            </div>
+        </section>
+
+    </section>
+
+    <!-- Portfolio Modals-->
+    <!-- Portfolio item 1 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/close-icon.svg" alt="Close modal"
+                        style="width: 30px;" /></div>
                 <div class="container">
-                    <div class="text-center">
-                        <h2 class="section-heading">Portfolio</h2>
-                        <h3 class="section-subheading text-muted">Veja nosso portfólio.</h3>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4 col-sm-6 mb-4">
-                            <!-- Portfolio item 1-->
-                            <div class="portfolio-item">
-                                <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                    </div>
-                                    <img class="img-fluid" src="assets/jov7.png" style="border-radius: 20px;" alt="..." />
-                                    
-                                </a>
-                                <div class="portfolio-caption">
-                                    <div class="portfolio-caption-heading">Instalação</div>
-                                    <div class="portfolio-caption-subheading text-muted">Exemplo</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6 mb-4">
-                            <!-- Portfolio item 2-->
-                            <div id="portfolio" class="portfolio-item">
-                                <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                    </div>
-                                    <img class="img-fluid" src="assets/jov6.jpg" style="border-radius: 20px;" alt="..." />
-                                </a>
-                                <div class="portfolio-caption">
-                                    <div class="portfolio-caption-heading">Higienização</div>
-                                    <div class="portfolio-caption-subheading text-muted">Exemplo</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6 mb-4">
-                            <!-- Portfolio item 3-->
-                            <div class="portfolio-item">
-                                <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                    </div>
-                                    <img class="img-fluid" src="assets/jov10.jpg" style="border-radius: 20px;" alt="..." />
-                                </a>
-                                <div class="portfolio-caption">
-                                    <div class="portfolio-caption-heading">Manutenção e Conserto</div>
-                                    <div class="portfolio-caption-subheading text-muted">Exemplo</div>
-                                </div>
-                            </div>
-                        </div>
-    
-                    </div>
-                </div>
-            </section>
-            
-        </section>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h3 class="">Técnicos Especializados</h3>
+                                <p class="item-intro text-muted">Especialistas em diversos fabricantes.</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/jov3.jpg"
+                                    style="border-radius: 20px;" alt="..." />
+                                <p>VRF, Split, Aplitão, Self, Piso, Teto e Cassete, mão de obra especializada.</p>
 
-        <!-- Portfolio Modals-->
-        <!-- Portfolio item 1 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/close-icon.svg" alt="Close modal" style="width: 30px;" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h3 class="">Técnicos Especializados</h3>
-                                    <p class="item-intro text-muted">Especialistas em diversos fabricantes.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/jov3.jpg" style="border-radius: 20px;" alt="..." />
-                                    <p>VRF, Split, Aplitão, Self, Piso, Teto e Cassete, mão de obra especializada.</p>
-                                    
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Fechar
-                                    </button>
-                                </div>
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Fechar
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- Portfolio item 2 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/close-icon.svg" alt="Close modal" style="width: 30px;" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h3 class="">Higienização</h3>
-                                    <p class="item-intro text-muted">Mantenha sempre seu ambiente com um ar limpo e saudável.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/jov11.jpg" style="border-radius: 20px;" alt="..." />
-                                    <p>Higienização completa de qualquer aparelho de ar condicionado, Split Cassete, Piso Teto e Portátil.</p>
-                                    
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Fechar
-                                    </button>
-                                </div>
+    <!-- Portfolio item 2 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/close-icon.svg" alt="Close modal"
+                        style="width: 30px;" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h3 class="">Higienização</h3>
+                                <p class="item-intro text-muted">Mantenha sempre seu ambiente com um ar limpo e
+                                    saudável.</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/jov11.jpg"
+                                    style="border-radius: 20px;" alt="..." />
+                                <p>Higienização completa de qualquer aparelho de ar condicionado, Split Cassete, Piso
+                                    Teto e Portátil.</p>
+
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Fechar
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- Portfolio item 3 modal popup-->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/close-icon.svg" alt="Close modal" style="width: 30px;" /></div>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-8">
-                                <div class="modal-body">
-                                    <!-- Project details-->
-                                    <h3 class="">Manutenção Preventiva e Corretiva</h3>
-                                    <p class="item-intro text-muted">Trabalhamos com as melhores marcas.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/jov5.jpg" style="border-radius: 20px;" alt="..." />
-                                    <p>Linhas de fases medicinais, oxigênio, nitroso, ar comprimido e vácuo.</p>
-                                    
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Fechar
-                                    </button>
-                                </div>
+    <!-- Portfolio item 3 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/close-icon.svg" alt="Close modal"
+                        style="width: 30px;" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h3 class="">Manutenção Preventiva e Corretiva</h3>
+                                <p class="item-intro text-muted">Trabalhamos com as melhores marcas.</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/jov5.jpg"
+                                    style="border-radius: 20px;" alt="..." />
+                                <p>Linhas de fases medicinais, oxigênio, nitroso, ar comprimido e vácuo.</p>
+
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Fechar
+                                </button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- Pricing section-->
-        <section id="cards" class="bg-light py-5 border-bottom">
-            <div class="container px-5 my-5">
-                <div class="text-center mb-5">
-                    <h2 class="fw-bolder">Confira nossos serviços</h2>
-                    <p class="lead mb-0">Valores e mais detalhes</p>
+    <!-- Pricing section-->
+    <section id="cards" class="bg-light py-5 border-bottom">
+        <div class="container px-5 my-5">
+            <div class="text-center mb-5">
+                <h2 class="fw-bolder">Confira nossos serviços</h2>
+                <p class="lead mb-0">Valores e mais detalhes</p>
+            </div>
+            <div class="row gx-5 justify-content-center">
+                <!-- Pricing card free-->
+                <div class="col-lg-6 col-xl-4">
+                    <div class="card mb-5 mb-xl-0">
+                        <div class="card-body p-5">
+                            <div class="text-uppercase fw-bold">
+
+                                <div class="text-uppercase fw-bold">
+                                    <i class="bi bi-snow3 text-primary"></i>
+                                    Instalação
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <span class="text-muted">a partir de</span>
+                                <span class="display-6 fw-bold">R$ 550,00</span>
+                                <span class="text-muted">em até <strong>3x sem juros</strong></span>
+
+                            </div>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2 text-uppercase text-center">
+                                    <strong>Técnico Especializado</strong>
+                                    <i class="bi bi-check-circle-fill text-primary"></i>
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Escolha correta do local
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Dimensionamento correto
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Suporte adequado
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Isolamento térmico
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Drenagem
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Garantia do serviço
+                                </li>
+
+                            </ul>
+                            <div class="d-grid"><a class="btn btn-primary"
+                                    href="https://wa.me/5561991831119?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento..."
+                                    target="_blank">Entre em contato<i class="bi bi-whatsapp small ms-2"></i></a></div>
+                        </div>
+                    </div>
                 </div>
-                <div class="row gx-5 justify-content-center">
-                    <!-- Pricing card free-->
-                    <div class="col-lg-6 col-xl-4">
-                        <div class="card mb-5 mb-xl-0">
-                            <div class="card-body p-5">
-                                <div class="text-uppercase fw-bold">
-                                    
-                                    <div class="text-uppercase fw-bold">
-                                        <i class="bi bi-snow3 text-primary"></i>
-                                        Instalação</div>
-                                </div>
-                                
-                                <div class="mb-3">
-                                    <span class="text-muted">a partir de</span>
-                                    <span class="display-6 fw-bold">R$ 550,00</span>
-                                    <span class="text-muted">em até <strong>3x sem juros</strong></span>
-                                    
-                                </div>
-                                <ul class="list-unstyled mb-4">
-                                    <li class="mb-2 text-uppercase text-center">
-                                        <strong>Técnico Especializado</strong>
-                                        <i class="bi bi-check-circle-fill text-primary"></i>
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Escolha correta do local
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Dimensionamento correto
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Suporte adequado
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Isolamento térmico
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Drenagem
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Garantia do serviço
-                                    </li>
-                                    
-                                    
-                                   
-                                </ul>
-                                <div class="d-grid"><a class="btn btn-primary" href="https://wa.me/5561991831119?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento..." target="_blank">Entre em contato<i class="bi bi-whatsapp small ms-2"></i></a></div>
+                <!-- Pricing card pro-->
+                <div class="col-lg-6 col-xl-4">
+                    <div class="card mb-5 mb-xl-0">
+                        <div class="card-body p-5">
+                            <div class="text-uppercase fw-bold">
+                                <i class="bi bi-wind text-primary"></i>
+                                Higienização
                             </div>
+                            <div class="mb-3">
+                                <span class="text-muted">a partir de</span>
+                                <span class="display-6 fw-bold">R$ 220,00 </span>
+                                <span class="text-muted">em até <strong>3x sem juros</strong></span>
+
+                            </div>
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2 text-uppercase text-center">
+                                    <strong>Benefícios</strong>
+                                    <i class="bi bi-check-circle-fill text-primary"></i>
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Qualidade do ar
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Eficiência energética
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Durabilidade do aparelho
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Desempenho ideal
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Economia de custos
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Redução de mau cheiro
+                                </li>
+
+                            </ul>
+                            <div class="d-grid"><a class="btn btn-primary"
+                                    href="https://wa.me/5561991831119?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento..."
+                                    target="_blank">Entre em contato<i class="bi bi-whatsapp small ms-2"></i></a></div>
                         </div>
                     </div>
-                    <!-- Pricing card pro-->
-                    <div class="col-lg-6 col-xl-4">
-                        <div class="card mb-5 mb-xl-0">
-                            <div class="card-body p-5">
-                                <div class="text-uppercase fw-bold">
-                                    <i class="bi bi-wind text-primary"></i>
-                                    Higienização
-                                </div>
-                                <div class="mb-3">
-                                    <span class="text-muted">a partir de</span>
-                                    <span class="display-6 fw-bold">R$ 220,00 </span>
-                                    <span class="text-muted">em até <strong>3x sem juros</strong></span>
-                                    
-                                </div>
-                                <ul class="list-unstyled mb-4">
-                                    <li class="mb-2 text-uppercase text-center">
-                                        <strong>Benefícios</strong>
-                                        <i class="bi bi-check-circle-fill text-primary"></i>
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Qualidade do ar
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Eficiência energética
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Durabilidade do aparelho
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Desempenho ideal
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Economia de custos
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Redução de mau cheiro
-                                    </li>
-                                    
-                                </ul>
-                                <div class="d-grid"><a class="btn btn-primary" href="https://wa.me/5561991831119?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento..." target="_blank">Entre em contato<i class="bi bi-whatsapp small ms-2"></i></a></div>
+                </div>
+                <!-- Pricing card enterprise-->
+                <div class="col-lg-6 col-xl-4">
+                    <div class="card">
+                        <div class="card-body p-5">
+
+                            <div class="text-uppercase fw-bold">
+                                <i class="bi bi-tools text-primary"></i>
+                                Manutenção e Conserto
                             </div>
-                        </div>
-                    </div>
-                    <!-- Pricing card enterprise-->
-                    <div class="col-lg-6 col-xl-4">
-                        <div class="card">
-                            <div class="card-body p-5">
-                                
-                                <div class="text-uppercase fw-bold">
-                                    <i class="bi bi-tools text-primary"></i>
-                                    Manutenção e Conserto</div>
-                                    <div class="mb-3">
-                                        <span class="text-muted">visita técnica</span>
-                                        <span class="display-6 fw-bold">R$ 70,00</span>
-                                        <br>
-                                        <span class="text-muted"><strong>em caso de orçamento</strong></span>
-                                        
-                                    </div>
-                                <div class="mb-3">
-                                    <span class="display-4 fw-bold"></span>
-                                    <span class="text-muted"></span>
-                                </div>
-                                
-                                <ul class="list-unstyled mb-4">
-                                    <li class="mb-2 text-uppercase text-center">
-                                        <strong>Serviços</strong>
-                                        <i class="bi bi-check-circle-fill text-primary"></i>
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Verificação das Bobinas
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Inspeção das Tubulações
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Revisão dos Componentes Elétricos
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Inspeção do Nível de Refrigerante
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Verificação da Ventilação
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Troca e alimentação de Gás
-                                    </li>
-                                    
-                                </ul>
-                                <div class="d-grid"><a class="btn btn-primary" href="https://wa.me/5561991831119?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento..." target="_blank">Entre em contato<i class="bi bi-whatsapp small ms-2"></i></a></div>
+                            <div class="mb-3">
+                                <span class="text-muted">visita técnica</span>
+                                <span class="display-6 fw-bold">R$ 70,00</span>
+                                <br>
+                                <span class="text-muted"><strong>em caso de orçamento</strong></span>
+
                             </div>
+                            <div class="mb-3">
+                                <span class="display-4 fw-bold"></span>
+                                <span class="text-muted"></span>
+                            </div>
+
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2 text-uppercase text-center">
+                                    <strong>Serviços</strong>
+                                    <i class="bi bi-check-circle-fill text-primary"></i>
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Verificação das Bobinas
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Inspeção das Tubulações
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Revisão dos Componentes Elétricos
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Inspeção do Nível de Refrigerante
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Verificação da Ventilação
+                                </li>
+                                <li class="mb-2">
+                                    <i class="bi bi-check text-primary"></i>
+                                    Troca e alimentação de Gás
+                                </li>
+
+                            </ul>
+                            <div class="d-grid"><a class="btn btn-primary"
+                                    href="https://wa.me/5561991831119?text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento..."
+                                    target="_blank">Entre em contato<i class="bi bi-whatsapp small ms-2"></i></a></div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Testimonials section-->
-        <!-- <section class="py-5 border-bottom">
+        </div>
+    </section>
+    <!-- Testimonials section-->
+    <!-- <section class="py-5 border-bottom">
             <div class="container px-5 my-5 px-5">
                 <div class="text-center mb-5">
                     <h2 class="fw-bolder">Customer testimonials</h2>
@@ -443,34 +487,38 @@
                 </div>
             </div>
         </section> -->
-        <!-- Contact section-->
-        <section id="email" class="bg-light py-5">
-            <div class="container px-5 my-5 px-5">
-                <div class="text-center mb-5">
-                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
-                    <h3 class="fw-bolder">SOLICITE UM ORÇAMENTO</h3>
-                    <p class="lead mb-0">jovarcondicionados@gmail.com</p>
+    <!-- Contact section-->
+    <section id="email" class="bg-light py-5">
+        <div class="container px-5 my-5 px-5">
+            <div class="text-center mb-5">
+                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i>
                 </div>
-                <div class="row gx-5 justify-content-center">
-                    
-                </div>
+                <h3 class="fw-bolder">SOLICITE UM ORÇAMENTO</h3>
+                <p class="lead mb-0">jovarcondicionados@gmail.com</p>
             </div>
-        </section>
+            <div class="row gx-5 justify-content-center">
 
-        <!-- Footer-->
-        <footer class="py-5 bg-dark">
-            <div class="container px-5"><p class="m-0 text-center text-white">Copyright &copy; Almeida Tech 2024</p></div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+            </div>
+        </div>
+    </section>
 
-        <script src="https://kit.fontawesome.com/b5c3be6ab3.js" crossorigin="anonymous"></script>
-    </body>
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+        <div class="container px-5">
+            <p class="m-0 text-center text-white">Copyright &copy; Almeida Tech 2024</p>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+    <script src="https://kit.fontawesome.com/b5c3be6ab3.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
